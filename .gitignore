@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+# xUnit / VSTest output
+TestResults/
+*.trx
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
