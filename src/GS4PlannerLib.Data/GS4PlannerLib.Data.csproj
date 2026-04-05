@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>GS4PlannerLib.Data</AssemblyName>
+    <RootNamespace>GS4PlannerLib.Data</RootNamespace>
+    <Description>Data access layer for GS4 Planner library, providing SQLite-backed persistence.</Description>
+    <Authors>Dalran</Authors>
+    <PackageTags>GS4;GemStone;planner;data;sqlite</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GS4PlannerLib\GS4PlannerLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
