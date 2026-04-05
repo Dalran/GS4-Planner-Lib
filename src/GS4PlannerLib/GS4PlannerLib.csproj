@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>GS4PlannerLib</AssemblyName>
+    <RootNamespace>GS4PlannerLib</RootNamespace>
+    <Description>Core library for GS4 character planning and training management.</Description>
+    <Authors>Dalran</Authors>
+    <PackageTags>GS4;GemStone;planner;character</PackageTags>
+  </PropertyGroup>
+
+</Project>
